@@ -21,7 +21,13 @@
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
-
+<style>
+	@media (min-width: 600px) {
+   .mobile-nav-toggler {
+     display: none !important; /* This is how it looks on desktop */
+   }
+}
+</style>
 <body class="hidden-bar-wrapper">
 
 <div class="page-wrapper">
@@ -29,7 +35,7 @@
        
  	
  	<!-- Main Header-->
-    <header class="main-header header-style-three">
+	 <header class="main-header header-style-three">
     	
 		<!-- Header Top -->
         <div class="header-top">
@@ -50,8 +56,8 @@
 					
 						<!-- Info List -->
                         <ul class="info-list">
-							<li></li>
-							<li></li>
+							<li> </li>
+							<li><a href="mailto:meto_company@mail.com"></a></li>
 						</ul>
 						
                     </div>
@@ -85,6 +91,8 @@
 							
 							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
+									<li class="current dropdown"><a href="#">Home</a>
+									</li>
 									<li class="dropdown"><a href="#">About</a>
 									</li>
 									<li class="dropdown"><a href="#">Gallery</a>
@@ -101,10 +109,13 @@
 						</nav>
 						
 						<!-- Main Menu End-->
-						<div class="outer-box clearfix">	
+						<div class="outer-box clearfix">
+						
+							
+							
 							<!-- Quote Btn -->
 							<div class="btn-box">
-								<a href="#" class="quote-btn btn-style-four"><span class="txt">Membership</span></a>
+								<a href="contact.html" class="quote-btn btn-style-four"><span class="txt">Membership</span></a>
 							</div>
 							
 						</div>
@@ -121,7 +132,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.html" title=""><img src="images/acm logo3-01.png" alt="" title=""></a>
+                    <a href="index.html" title=""><img src="images/acm logo4-01.png" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
@@ -130,7 +141,14 @@
                         <!--Keep This Empty / Menu will come through Javascript-->
                     </nav><!-- Main Menu End-->
 					
-
+					<!-- Main Menu End-->
+					<div class="outer-box clearfix">
+					
+						
+						<!-- Nav Btn -->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+						
+					</div>
 					
                 </div>
             </div>
@@ -142,7 +160,7 @@
             <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="images/acm logo4-01.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->
